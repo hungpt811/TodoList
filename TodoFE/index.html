@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>Todo App</header>
+        <div class="inputField">
+            <input type="text" id="name" name="name" placeholder="Type your task..">
+            <button id="add">
+                <i class='bx bx-plus'></i>
+            </button>
+        </div>
+        <ul class="todoList">
+            <!-- <li> Quét nhà  <span><i class='bx bx-check'></i></span>  </li>
+            <li> Học bài <span><i class='bx bx-check'></i></span> </li> 
+            <li> Rửa bát <span><i class='bx bx-check'></i></span></li> 
+            <li> Đọc sách <span><i class='bx bx-check'></i></span> </li> 
+            <li> Rửa bát  <span><i class='bx bx-check'></i></span>  </li>
+            <li> Đi học <span ><i class='bx bx-check'></i></span> </li>              -->
+        </ul>
+        <div class="footer">
+            <span>You have pending tasks</span>
+            <button id="clearAll" onclick="handleDeleteAll()">Clear All</button>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
